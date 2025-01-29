@@ -8,7 +8,7 @@ Las informaciones tendrán que ser guardadas y compartidas con el React context
 
 Instalar las dependencias con `npm i`
 
-- Usar la api de punkapi 👉 [https://api.punkapi.com/v2/beers](https://thronesapi.com/)
+- Usar la api de punkapi 👉 [https://thronesapi.com/](https://thronesapi.com/)
 - Crear un `context` donde guardar la respuesta de la petición
 - Crear una página index en el path `/` donde vamos a listar los personajes que hemos conseguido con la petición, en la lista hay que mostrar el `name` del personaje y la imagen de la cerveza de `imageUrl`
 - Crear una página `/details/:characterId` que se mostrará al hacer click en un personaje de la lista, estos son los detalles que hay que mostrar: `firstName`, `lastName`, `title`, `family` and `imageUrl`
